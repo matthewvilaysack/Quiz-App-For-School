@@ -9,5 +9,5 @@ npm install
 npm run dev-server
 
 Good luck!
-Live demo <a href="woozy-observation.surge.sh" target="_blank"> here </a>!
+Live demo <a href="http://woozy-observation.surge.sh/" target="_blank"> here </a>!
 
