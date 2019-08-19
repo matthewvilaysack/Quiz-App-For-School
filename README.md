@@ -11,3 +11,6 @@ npm run dev-server
 Good luck!
 Live demo <a href="http://unbiased-balloon.surge.sh/" target="_blank"> here </a>!
 
+<img src="https://i.imgur.com/dxmEr51.png"> 
+</br>
+<img src="https://i.imgur.com/LUxrcx4.png/">
