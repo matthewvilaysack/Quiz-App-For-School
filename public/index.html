@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="start">
+        Start your first day as a pirate!
+        <i class="fas fa-school"></i>
+      </div>
+      <div class="quiz" style="display:none">
+        <div class="question"></div>
+        <div class="q-img"></div>
+        <div class="choices">
+          <div class="choice" id="a"></div>
+          <div class="choice" id="b"></div>
+          <div class="choice" id="c"></div>
+        </div>
+        <div class="question-timer">
+          <div class="counter"></div>
+          <div class="time-guage"></div>
+          <div class="time-guage-bg"></div>
+        </div>
+        <div class="progress"></div>
+      </div>
+      <div class="score-container"></div>
+    </div>
+    <div class="slider"></div>
+    <div class="q-slider"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="/scripts/bundle.js"></script>
+  </body>
+</html>

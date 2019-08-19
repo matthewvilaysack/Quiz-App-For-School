@@ -1,0 +1,50 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode=production --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "core-js": "^3.1.4",
+    "live-server": "^1.2.1",
+    "regenerator-runtime": "^0.13.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-preset-airbnb": "^4.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "node/no-unsupported-features/es-syntax": [
+    "error",
+    {
+      "version": ">=8.0.0",
+      "ignores": []
+    }
+  ],
+  "keywords": [],
+  "description": ""
+}
