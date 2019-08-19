@@ -8,4 +8,6 @@ npm install
 
 npm run dev-server
 
-Live demo <a href="parsimonious-fight.surge.sh"> here </a>!
+Good luck!
+Live demo <a href="woozy-observation.surge.sh"> here </a>!
+
