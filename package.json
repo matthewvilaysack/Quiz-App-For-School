@@ -16,8 +16,8 @@
     "core-js": "^3.1.4",
     "live-server": "^1.2.1",
     "regenerator-runtime": "^0.13.2",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.7.2"
   },
   "devDependencies": {
